@@ -37,8 +37,8 @@ window.onload = () => {
   function offline() { //function for offline
     wrapper.classList.remove("hide");
     toast.classList.add("offline");
-    title.innerText = "You are connected to internet";
-    subTitle.innerText = "Connected";
+    title.innerText = "You are not connected to internet";
+    subTitle.innerText = "Not Connected";
     wifiIcon.innerHTML = '<i class="uil uil-wifi-slash"></i>';
   }
 
